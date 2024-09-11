@@ -1,0 +1,610 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+
+.gym .trainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+  border: 1px solid aqua;
+  color: aqua;
+  text-decoration: none;
+  padding: 8px;
+}
+.gym {
+  height: 100vh;
+  background-image: url(/pexels-cottonbro-4761779\ \(1\).jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+.gym .trainer nav ul {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  list-style: none;
+}
+/* media navbar */
+
+#click {
+  display: none;
+}
+label{
+  display: none;
+  margin-right: 20px;
+  font-size: 30px;
+
+}
+
+/* media navbar */
+@media screen and (max-width:768px){
+  label{
+    display: block;
+  }
+   header .gym .trainer nav ul {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    text-align: center;
+    width: 100%;
+    display: none;
+    margin-top: 100px;
+  }
+  #click:checked ~ header .gym .trainer nav ul   {
+    display: block;
+
+  }
+
+
+}
+
+
+
+.gym .trainer nav ul a {
+  text-decoration: none;
+  color: yellow;
+}
+.trainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.gym1,
+.icon,
+.icon1,
+.icon2,
+.icon3 {
+  background-color: black;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.gym1,
+.heading,
+.heading1,
+.heading2,
+.heading3 {
+  color: white;
+  font-size: 20px;
+}
+.gym1,
+.icon i,
+.icon1 i,
+.icon2 i,
+.icon3 i {
+  color: aqua;
+  font-size: 50px;
+}
+
+.gym2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+.gym2 h1 {
+  color: aqua;
+  padding: 10px;
+}
+.gym2 .content p {
+  color: white;
+  padding: 15px;
+}
+.btn1 {
+  color: black;
+  background-color: aqua;
+  text-decoration: none;
+  font-size: 10px;
+  width: 140px;
+  padding: 10px;
+  margin-left: 15px;
+}
+.gym2 .pic img {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.gym3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: auto;
+}
+.gym3 h1 {
+  color: aqua;
+  padding: 30px;
+}
+.gym3 p {
+  color: white;
+  padding: 30px;
+}
+.gym3 .pic1 img {
+  gap: 0px;
+  width: 250px;
+  height: 250px;
+}
+.gym4 {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.gym4 h1 {
+  color: aqua;
+  padding: 20px;
+}
+.gym4 p {
+  color: white;
+  padding: 20px;
+}
+.gym4 table th {
+  color: aqua;
+  padding: 30px;
+  margin-left: 20px;
+}
+.container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 200px;
+  padding: 30px;
+}
+.item {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+.join {
+  color: aqua;
+}
+.content2 {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.content2 h1 {
+  color: aqua;
+  padding: 20px;
+}
+.content2 h5 {
+  color: white;
+  padding: 20px;
+}
+.content2 p {
+  padding: 20px;
+  color: white;
+}
+/* trainer section */
+.gym5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: auto;
+}
+.gym5 .pic2 h1 {
+  padding: 5px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic2 h5 {
+  padding: 0px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic2 p {
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic3 h1 {
+  padding: 5px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic3 h5 {
+  padding: 0px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic3 p {
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic4 h1 {
+  padding: 5px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic4 h5 {
+  padding: 0px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 .pic4 p {
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.gym5 img {
+  width: 250px;
+  height: 250px;
+}
+/* service section */
+.content3 {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: auto;
+  padding: 30px;
+}
+.content3 h1 {
+  color: aqua;
+  padding: 20px;
+}
+.content3 p {
+  color: whitesmoke;
+  padding: 20px;
+}
+.gym6 {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+}
+.gym6 .content4 {
+  background-color: aqua;
+  border: 10px solid black;
+  font-size: 18px;
+}
+.gym6 .content5 {
+  background-color: aqua;
+  border: 10px solid black;
+  font-size: 18px;
+}
+.gym6 .content6 {
+  background-color: aqua;
+  border: 10px solid black;
+  font-size: 15px;
+}
+.gym6 .content6 i {
+  font-size: 30px;
+  padding: 10px;
+}
+.content7 {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: cornsilk;
+}
+.content7 h1 {
+  color: aqua;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  width: 700px;
+}
+.content7 p {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 700px;
+  padding-left: 280px;
+}
+/* INPUT TAG  */
+.gym7 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.gym7 .name {
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  /* justify-content: start; */
+}
+.name input {
+  background-color: black;
+  color: white;
+  border: 1px solid aqua;
+}
+.name1 input {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.gym7 .subject {
+  background-color: black;
+  height: auto;
+  padding: 20px;
+  /* justify-content: start; */
+}
+.subject input {
+  background-color: #000000;
+  color: white;
+  width: 340px;
+}
+.gym7 .email {
+  background-color: black;
+  height: auto;
+  padding: 20px;
+  /* justify-content: center; */
+}
+.email input {
+  background-color: black;
+  width: 340px;
+}
+.gym7 .message {
+  background-color: black;
+  padding: 20px;
+  /* justify-content: center;
+    align-items: center; */
+}
+.message input {
+  padding: 80px;
+  background-color: black;
+}
+.gym7 .btn2 {
+  background-color: black;
+  color: aqua;
+  padding: 20px;
+  padding-left: 80px;
+  /* justify-content: center;
+    align-items: center; */
+}
+.gym7 button {
+  width: 200px;
+  padding: 15px;
+  background-color: aqua;
+}
+.btn2 button a {
+  color: black;
+  background-color: aqua;
+  padding: 15px;
+  text-decoration: none;
+  width: 300px;
+}
+.gym8 {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  text-align: center;
+  height: auto;
+  gap: 20px;
+}
+.gym8 {
+  background-color: black;
+  padding: 10px;
+}
+.gym8 .data h1 {
+  color: white;
+  padding: 10px;
+}
+
+.gym8 .data1 h1 {
+  color: white;
+  padding: 10px;
+}
+.gym8 .data1 h6 {
+  color: aqua;
+  padding: 8px;
+}
+.gym8 .data2 h1 {
+  color: white;
+  padding: 20px;
+  padding-top: 10px;
+}
+.gym8 .data2 p {
+  padding: 10px;
+}
+.gym8 .data2 a {
+  color: black;
+  text-decoration: none;
+  background-color: aqua;
+}
+.gym8 input {
+  background-color: black;
+  border: 2px solid white;
+}
+.footer {
+  background-color: black;
+  padding-left: 80px;
+}
+/* footer end */
+
+/* media query */
+@media screen and (max-width: 768px) {
+  .gym .trainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .gym .trainer nav ul {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    list-style: none;
+  }
+  .btn {
+    display: none;
+  }
+  .gym4 table th {
+    color: aqua;
+    padding: 20px;
+    margin-left: 20px;
+  }
+}
+/* media query for mobile view */
+@media screen and (max-width: 425px) {
+  .gym .trainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .gym .trainer nav ul {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    list-style: none;
+  }
+
+  .gym1,
+  .icon,
+  .icon1,
+  .icon2,
+  .icon3 {
+    background-color: black;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .gym1,
+  .heading,
+  .heading1,
+  .heading2,
+  .heading3 {
+    color: white;
+    font-size: 10px;
+  }
+  .gym1,
+  .icon i,
+  .icon1 i,
+  .icon2 i,
+  .icon3 i {
+    color: aqua;
+    font-size: 20px;
+  }
+  .gym2 {
+    flex-direction: column;
+  }
+  .gym2 .pic img {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .gym4 table th {
+    color: aqua;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .content2 {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+  }
+  .gym5 {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+  .content7 {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+  }
+  .content7 h1 {
+    color: aqua;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 400px;
+  }
+  .content7 p {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 500px;
+  }
+  .gym8 {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: auto;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+}
