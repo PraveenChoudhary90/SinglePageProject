@@ -494,6 +494,173 @@ label{
     font-size: 20px;
     list-style: none;
   }
+  
+.gym1,
+.icon,
+.icon1,
+.icon2,
+.icon3 {
+  background-color: black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.gym1,
+.heading,
+.heading1,
+.heading2,
+.heading3 {
+  color: white;
+  font-size: 20px;
+}
+.gym1,
+.icon i,
+.icon1 i,
+.icon2 i,
+.icon3 i {
+  color: aqua;
+  font-size: 50px;
+}
+
+.gym2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  flex-direction: column;
+  
+}
+.gym2 .pic{
+  padding: 40px;
+  margin-left: 30px;
+}
+.gym2 .content{
+  width: 300px;
+  margin-left: 60px;
+}
+.gym3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: auto;
+  gap: 30px;
+}
+.gym3 .content1{
+  width: 300px;
+  padding: 20px;
+}
+.gym3 .pic1 img{
+  gap: 40px;
+}
+
+.gym4 p{
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 400px;
+
+}
+
+.gym4 table th {
+  color: aqua;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 10px;
+}
+.container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 100%;
+  padding: 10px;
+  width: 700px;
+
+}
+
+.item {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+.join {
+  color: aqua;
+}
+.content2 {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.content2 h1 {
+  color: aqua;
+  padding: 10px;
+}
+.content2 h5 {
+  color: white;
+  padding: 10px;
+}
+.content2 p {
+  padding: 10px;
+  color: white;
+  width: 300px;
+}
+/* trainer section */
+.gym5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: auto;
+  flex-direction: column;
+}
+.gym5 p{
+  width: 300px;
+}
+.content3 p{
+  width: 300px;
+  margin-left: 200px;
+}
+
+.gym6 {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.gym6 p{
+  width: 300px;
+}
+.content7 p{
+  width: 600px;
+}
+
+
+.gym8 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  height: auto;
+  gap: 20px;
+  flex-direction: column;
+}
+.gym8 p{
+  width: 300px;
+  margin-left: 200px;
+}
   .btn {
     display: none;
   }
@@ -527,7 +694,7 @@ label{
   .icon3 {
     background-color: black;
     display: flex;
-    height: 100px;
+    height: 100%;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -558,6 +725,17 @@ label{
     align-items: center;
     padding: 20px;
   }
+  
+.container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 100%;
+  padding: 10px;
+  width: 420px;
+
+}
   .gym4 table th {
     color: aqua;
     padding: 10px;
@@ -569,13 +747,16 @@ label{
     align-items: center;
     padding: 110px;
   }
+  .content3 p{
+    margin-left: 10px;
+  }
   .gym5 {
     display: grid;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: black;
     height: auto;
-    grid-template-columns: 1fr;
+
   }
   .content7 {
     background-color: black;
@@ -605,6 +786,9 @@ label{
     background-color: black;
     height: auto;
     gap: 20px;
-    grid-template-columns: 1fr;
+  }
+  .gym8 p{
+    width: 200px;
+    margin-left: 20px;
   }
 }
